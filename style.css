@@ -1,9 +1,90 @@
-/* *{
+/*
+Project One Page
+Author  : Batuhan Buğra Gümüş
+Date    : 14.06.2023
+Version : v.1
+*/
 
-} */
+/* ------------------------------ */
+/* Root */
 
-/* html{} */
+/* ------------------------------ */
+/* Common Property */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+}
 
 body {
   font-family: "Manrope", sans-serif;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Special font sizes */
+.fSize1 {
+  font-size: 1rem;
+}
+
+.fSize2 {
+  font-size: 2rem;
+}
+
+.fSize3 {
+  font-size: 3rem;
+}
+
+.fSize4 {
+  font-size: 4rem;
+}
+
+/* nLine-clamp */
+.line-clamp5 {
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.line-clamp8 {
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.line-clamp10 {
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+/* ------------------------------ */
+/* Header */
+header {
+  background-image: url("./img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+  height: 80vh;
+  padding-top: 4rem;
 }
