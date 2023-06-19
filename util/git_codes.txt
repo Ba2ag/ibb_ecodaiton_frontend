@@ -32,3 +32,11 @@ git stash save stashName
 git stash list
 git stash pop
 git stash drop stash@{0}
+
+= BRANCH =
+= ! Before Branch, make sre add&commit&push =
+git branch -M main
+git branch -a
+git branch -v
+git branch frontend
+git checkout frontend (or main)
