@@ -28,5 +28,7 @@ git push --force
 = SWITCHING WORK =
 git add work1.txt
 git stash
+git stash save stashName
 git stash list
 git stash pop
+git stash drop stash@{0}
