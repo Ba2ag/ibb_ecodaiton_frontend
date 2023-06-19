@@ -18,3 +18,9 @@ git clone URL
 
 git config --global user.name
 git config --global user.email
+
+== AFTER CONFLICT ===
+git reset HEAD~1
+git add .
+git commit -m "revize-data"
+git push --force
