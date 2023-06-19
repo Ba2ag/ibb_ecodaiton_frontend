@@ -1,1 +1,4 @@
 Emmet.io => https://docs.emmet.io/cheat-sheet/
+
+git clone => https://github.com/hamitmizrak/ibb_ecodation_frontend.git
+
