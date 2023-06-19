@@ -24,3 +24,9 @@ git reset HEAD~1
 git add .
 git commit -m "revize-data"
 git push --force
+
+= SWITCHING WORK =
+git add work1.txt
+git stash
+git stash list
+git stash pop
